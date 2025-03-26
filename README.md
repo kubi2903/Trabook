@@ -3,7 +3,7 @@ Trabook is a responsive travel booking website built with HTML and CSS. Features
 # Trabook Travel Website
 https://task1trabook.netlify.app
 
-## Features ✨
+## Features 
 - 🏨 Interactive destination search
 - ✈️ Exclusive travel deals section
 - 🌍 Popular vacation packages
