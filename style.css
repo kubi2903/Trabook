@@ -275,8 +275,8 @@ body {
     align-items: center;
 }
 .loc{
-    width: 10px;   /* Adjust size */
-    height: 16px;  /* Keep aspect ratio */
+    width: 10px;   
+    height: 16px;  
     margin-right: 4px;
 }
 .sv{
@@ -334,18 +334,13 @@ body {
     border: 4px solid white;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
-.client-img {
-    width: 20%;
-    margin-bottom: -20px;
-    height: 8%;
-    margin-top: -200%;
-    margin-bottom: 38px;
-    margin-left: 5px;
-}
 .testimonial-text {
     margin-top: 40px;
     font-size: 18px;
     line-height: 1.8;
+}
+.client-img{
+    width: 100px;
 }
 .sl{
 
@@ -442,83 +437,6 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
-
-
-@media (max-width: 1200px) {
-    .container {
-        max-width: 992px;
-    }
-}
-@media (max-width: 991px) {
-    .container {
-        padding: 16px;
-    }
-    
-    .flex-grid-item {
-        flex: 0 0 50%;
-    }
-    
-    .float-grid-item {
-        width: 50%;
-    }
-    
-    .main-nav {
-        display: none;
-    }
-    
-    .hero {
-        flex-direction: column;
-        margin: 40px 0;
-    }
-    
-    .testimonial-card {
-        margin-left: 5%;
-        max-width: 90%;
-    }
-    
-    .hi {
-        margin-right: 10%;
-    }
-}
-@media (max-width: 768px) {
-    .features-grid {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .feature-card {
-        width: 100%;
-        max-width: 400px;
-    }
-    
-    .section-title {
-        font-size: 32px;
-    }
-    
-    .testimonial-card {
-        padding: 25px;
-        max-width: 100%;
-    }
-    
-    .client-img-wrapper {
-        width: 60px;
-        height: 60px;
-        top: -30px;
-    }
-    
-    .decorative-element {
-        display: none;
-    }
-    
-    .vector {
-        display: none;
-    }
-    
-    .login-btn {
-        margin-left: 10%;
-    }
-}
-
 @media (max-width: 640px) {
     .flex-grid-item {
         flex: 0 0 100%;
@@ -582,6 +500,22 @@ body {
         width: 40%;
     }
 }
+@media (max-width: 991px) {
+    .client-img-wrapper {
+        width: 80px;
+        height: 80px;
+        top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
 
+@media (max-width: 640px) {
+    .client-img-wrapper {
+        width: 70px;
+        height: 70px;
+        top: -25px;
+    }
+}
 
 
